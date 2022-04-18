@@ -1,6 +1,6 @@
 # Drawing App
 ## 1- Opening both angular and Spring boot code:
-<B>Running Angular:
+<B>Running Angular:</b>
 
 1.  Unzip downloaded file.
 2.  you must have NodeJS and angular-Cli on your computer.  
@@ -9,7 +9,7 @@
 5.  Then you can open the project by writing ng serve –open in cmd window (port number:  4200).
  
 
-<B>Running Spring Boot project:
+<B>Running Spring Boot project:</b>
 
 6.  Open Eclipse IDE or any other IDE.
 7.  Import the whole Spring boot folder into IDE.
@@ -37,7 +37,7 @@
   
 ![](https://lh3.googleusercontent.com/_4Iw0xq6njFgLqfq1AXcubDbtJSx1xCSdqFV-8T8CLMY4Ywl6-tUvMxwRQLmelD948Kpy6dIgsJLt-qD1GDjU3MxWYW0Y5FGwaTVtkP4NFMYmTv2GyYljVC2ys7i61V9g4II9-BG)
 
-2- colouring the shape/ change the colour of the border: if you want to colour any shape, you can colour them only when you create the object. By clicking on the colour button (as shown in the figure), choose the wanted colour then click on it again to apply the colour on the shape. changing the border colour done in the same way.![](https://lh6.googleusercontent.com/yq7qdVuHpJgmZWyjD5Tv_lVGIIF30KR2Y56b-yLEmCPKRThQE93sptalCpgOAbW0ybXJ02IbiKGWRluj6uLIJ6L4HAlKOiXCyXH60RHD0lBPQXDBPk9a1GRB_z6wIx7NuHIl9QIE)
+2- coloring the shape/ change the color of the border: if you want to color any shape, you can color them only when you create the object. By clicking on the color button (as shown in the figure), choose the wanted color then click on it again to apply the color on the shape. changing the border color done in the same way.![](https://lh6.googleusercontent.com/yq7qdVuHpJgmZWyjD5Tv_lVGIIF30KR2Y56b-yLEmCPKRThQE93sptalCpgOAbW0ybXJ02IbiKGWRluj6uLIJ6L4HAlKOiXCyXH60RHD0lBPQXDBPk9a1GRB_z6wIx7NuHIl9QIE)
 
   
 
