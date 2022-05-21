@@ -1,4 +1,12 @@
 # Drawing App
+
+## Team-mates:
+* [Mai Ahmed Hussein](https://github.com/MaiAhmedHussein)
+* [Habiba Osama](https://github.com/habibaosama)
+* [Bassant Yasser](https://github.com/Bassantyasser043)
+* [Toka Ashraf](https://github.com/TokaAshraf12)
+
+
 ## 1- Opening both angular and Spring boot code:
 <B>Running Angular:</b>
 
