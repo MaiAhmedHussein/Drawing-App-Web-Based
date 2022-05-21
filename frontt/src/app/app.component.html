@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="field" >
+  <canvas class="field" width="1420" height="499"style="border: 1px solid black;" id="canvas" ></canvas>
+  <p>{{x}},{{y}},{{x2}},{{y2}},{{bk}}</p>
+</div>
+<div>hello</div>
+<div class="topnav">
+  
+
+  <a type="button"  (click)="openForm()"><i class="fa fa-fw fa-save"></i>Save</a>
+  <div class="form-popup" id="Form">
+    <form action="/action_page.php" class="form-container">
+      <h1>Save</h1>
+      <button type="button" class="btn" (click)="savel()">SaveAsJson</button>
+      <button type="button" class="btn" (click)="savex()">SaveAsXml</button>
+      <button type="button" class="btn cancel" (click)="closeForm()">Close</button>
+    </form>
+  </div>
+
+
+  <a type="button" (click)="openForm1()"><i class="fa fa-fw fa-folder"></i>Open</a>
+  <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>open</h1>
+      <button type="button" class="btn" (click)="loadl()">OpenJson</button>
+      <button type="button" class="btn" (click)="loadx()">OpenXml</button>
+      <button type="button" class="btn cancel" (click)="closeForm1()">Close</button>
+    </form>
+  </div>
+
+  
+
+  
+
+  <input type="color" class="color_picker" id="colorpickerLine"  (click)="filll()" >
+  <input type="color" class="color_picker" id="colorpickerLinee" style="width:10px"(click)="border()" >
+  <a  type="button" (click)="sel()" ><i class='fa far fa-object-group'></i> Select</a>
+  <a id="clear" (click)="clearSelect()"><i class="fa fa-fw fa-eraser"></i>ClearSelect</a>
+  <a id="clear" (click)="clearAll()"><i class="fa fa-fw fa-eraser"></i>ClearAll</a>
+  <a href="#" (click)="undo()"><i class="fa fa-fw fa-reply" ></i>Undo</a>
+  <a href="#" (click)="redo()"><i class="fa fa-fw fa-share" ></i>Redo</a>
+  <a type="button" style='font-size:30px; color:#ff00ff'(click)="rect()">&#9645;</a>
+  <a type="button" style='font-size:30px;color:#ff00ff' (click)="sqr()">&#9633;</a>
+  <a type="button" style='font-size:30px;color:#ff00ff' (click)="ell()" >&#x2B2D;</a>
+  <a type="button" style='font-size:30px;color:#ff00ff' (click)="cir()"  >&#9711;</a>
+  <a type="button" style='font-size:30px;color:#ff00ff' (click)="tria()"  >&#9722;</a>
+  <a type="button" style='color:#ff00ff' (click)="li()">&#9586;</a>
+</div>
